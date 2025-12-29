@@ -1,5 +1,4 @@
 #include <V2Buttons.h>
-#include <V2Color.h>
 #include <V2Device.h>
 #include <V2LED.h>
 #include <V2MIDI.h>
@@ -249,11 +248,11 @@ namespace {
         _link.online = online;
 
       if (_link.online) {
-        Led.setHSV(V2Color::Orange, 1, 0.35);
+        Led.setHSV(V2Colour::Orange, 1, 0.35);
         _link.resetUsec = 0;
 
       } else {
-        Led.setHSV(V2Color::Cyan, 1, 0.25);
+        Led.setHSV(V2Colour::Cyan, 1, 0.25);
 
         if (_link.resetUsec == 0)
           _link.resetUsec = V2Base::getUsec();
