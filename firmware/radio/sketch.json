@@ -1,0 +1,6 @@
+{
+  "cpu": {
+    "fqbn": "versioduo:samd:radio",
+    "name": "V2 radio"
+  }
+}
