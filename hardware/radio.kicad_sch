@@ -357,7 +357,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pin" "1=K 2=A"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -860,7 +860,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "USB-C_2.0"
+			(property "Value" "DX07S016JA3"
 				(at -10.16 20.5 0)
 				(effects
 					(font
@@ -870,7 +870,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_USB:JAE_DX07S016JA3"
-				(at 2.54 -30.48 0)
+				(at 0 -35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -896,8 +896,29 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
+			(property "Mouser" "656-DX07S016JA3R1500"
+				(at 0 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "DX07S016JA3R1500"
+				(at -0.254 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JAE Electronics"
+				(at -0.254 -38.1 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1557,7 +1578,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(property "Footprint" "V2_Diode_SMD:D_0603"
 				(at 0 -5.715 0)
 				(effects
 					(font
@@ -1577,6 +1598,46 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "652-CG0603MLC-05LE"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CG0603MLC-05LE"
+				(at 0 -12.954 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "5V"
+				(at 0 -15.24 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1697,7 +1758,7 @@
 				)
 			)
 			(property "Footprint" "V2_ESD_Suppressor:SLP1210N6"
-				(at 0 -15.24 0)
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1716,6 +1777,36 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "947-RCLAMP0582N.TCT"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "RCLAMP0582N.TCT"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Semtech"
+				(at 0 -20.32 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1860,7 +1951,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D3"
-				(at 0 11.43 0)
+				(at 0 10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1868,7 +1959,7 @@
 				)
 			)
 			(property "Value" "WS2812"
-				(at 0 8.89 0)
+				(at 0 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1876,12 +1967,11 @@
 				)
 			)
 			(property "Footprint" "V2_LED:WS2812-2020"
-				(at 0 -3.81 0)
+				(at 0 -9.906 0)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(justify top)
 					(hide yes)
 				)
 			)
@@ -1896,7 +1986,37 @@
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
+				(at 0 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Worldsemi"
+				(at 0 -15.494 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "WS2812B-2020"
+				(at 0 -12.954 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C965555"
+				(at 0 -18.288 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2108,7 +2228,7 @@
 				)
 			)
 			(property "Footprint" "V2_Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.45x5.45mm_ThermalVias"
-				(at 0 -62.23 0)
+				(at 0 -63.5 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2127,6 +2247,36 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "556-ATSAMD51G19AMU"
+				(at 0 -71.12 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Microchip Technology"
+				(at 0 -66.04 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "ATSAMD51G19A-MU"
+				(at 0 -68.58 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3048,7 +3198,7 @@
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "FID"
-				(at 0 5.08 0)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3056,15 +3206,16 @@
 				)
 			)
 			(property "Value" "Fiducial_Paste"
-				(at 0 3.175 0)
+				(at 0.254 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-				(at 0 -5.08 0)
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3082,16 +3233,7 @@
 				)
 			)
 			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
+				(at 0 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3326,6 +3468,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "V2_Production:Layer_Numbers"
@@ -3347,15 +3490,6 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3429,15 +3563,6 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3968,7 +4093,7 @@
 				)
 			)
 			(property "Footprint" "V2_Package_SON:VSON-8-1_3x3mm_P0.65_EP1.65x2.4mm"
-				(at 0 -24.13 0)
+				(at 0 -38.1 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3977,7 +4102,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/product/TPS784-Q1"
-				(at 1.27 -20.32 0)
+				(at 0 -34.544 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3987,6 +4112,36 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "595-TPS78433QWDRBRQ1"
+				(at 0 -46.736 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 -41.148 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "TPS78433QWDRBRQ1"
+				(at 0 -43.942 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6459,7 +6614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "043872f7-f031-4401-97f4-30673956f95a")
-		(property "Reference" "C106"
+		(property "Reference" "C105"
 			(at 118.11 24.13 0)
 			(effects
 				(font
@@ -6513,7 +6668,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C106")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -6638,6 +6793,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "947-RCLAMP0582N.TCT"
+			(at 241.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "RCLAMP0582N.TCT"
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Semtech"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91274f81-199a-4820-ae10-5e4a5b281d04")
 		)
@@ -6674,7 +6856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04fca3bc-aa8f-4fd8-8958-2cffef6f41c8")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0137"
 			(at 72.39 179.07 0)
 			(effects
 				(font
@@ -6724,7 +6906,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0138")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -6841,15 +7023,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 213.36 179.07 0)
 			(effects
 				(font
@@ -7185,7 +7358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 125.73 59.69 0)
 			(effects
 				(font
@@ -7399,6 +7572,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Worldsemi"
+			(at 248.92 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "WS2812B-2020"
+			(at 248.92 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965555"
+			(at 248.92 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d103674b-7ace-4f36-8d35-8d6b17321d70")
 		)
@@ -7501,7 +7701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32f9cf95-5154-44fe-a4a0-3bd7d0128ffb")
-		(property "Reference" "C108"
+		(property "Reference" "C107"
 			(at 204.47 38.1 0)
 			(effects
 				(font
@@ -7555,7 +7755,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C108")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -8309,6 +8509,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Worldsemi"
+			(at 266.7 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "WS2812B-2020"
+			(at 266.7 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965555"
+			(at 266.7 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efe6d787-a195-4ce8-8198-2df0e36f188a")
 		)
@@ -8740,7 +8967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f2aa1ba-0448-4d83-ad39-ff05a08d5364")
-		(property "Reference" "C111"
+		(property "Reference" "C110"
 			(at 259.08 87.6362 0)
 			(effects
 				(font
@@ -8794,7 +9021,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C111")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -8874,7 +9101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77be58e3-6c00-45da-9843-6a2883e3b059")
-		(property "Reference" "C303"
+		(property "Reference" "C111"
 			(at 74.93 168.91 0)
 			(effects
 				(font
@@ -8928,7 +9155,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C303")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -9256,15 +9483,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 172.72 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -9488,7 +9706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84509923-3c37-4069-b827-0bb52fbbd40e")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0138"
 			(at 62.23 177.8 0)
 			(effects
 				(font
@@ -9538,7 +9756,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0136")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -9553,7 +9771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86b706b9-6d90-4020-b4f0-e395502cc830")
-		(property "Reference" "C107"
+		(property "Reference" "C106"
 			(at 172.72 38.1 0)
 			(effects
 				(font
@@ -9607,7 +9825,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C107")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -9756,7 +9974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aa35fa2-54d2-4de6-84fb-e40adea5ce97")
-		(property "Reference" "C110"
+		(property "Reference" "C109"
 			(at 34.29 47.6313 0)
 			(effects
 				(font
@@ -9810,7 +10028,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C110")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -10136,15 +10354,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 276.225 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -10230,7 +10439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b95cb83-a45c-4669-9b91-f341db699f30")
-		(property "Reference" "C109"
+		(property "Reference" "C108"
 			(at 24.13 46.9962 0)
 			(effects
 				(font
@@ -10284,7 +10493,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C109")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -10608,6 +10817,42 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "652-CG0603MLC-05LE"
+			(at 290.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CG0603MLC-05LE"
+			(at 286.004 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 283.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "5V"
+			(at 288.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ff1745d-c11f-4562-8da8-32201df3ed36")
 		)
@@ -10905,7 +11150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c260461d-00b9-4eb9-b031-8db68de74a86")
-		(property "Reference" "C105"
+		(property "Reference" "C104"
 			(at 107.95 24.13 0)
 			(effects
 				(font
@@ -10959,7 +11204,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C105")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -11114,7 +11359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf32a5fd-5f5f-475f-9178-9dee2092531c")
-		(property "Reference" "C103"
+		(property "Reference" "C102"
 			(at 92.71 24.13 0)
 			(effects
 				(font
@@ -11168,7 +11413,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C103")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -11183,7 +11428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d44e6572-dd66-48a2-9f4a-e919439a8d1f")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0136"
 			(at 72.39 171.45 0)
 			(effects
 				(font
@@ -11233,7 +11478,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0139")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -11419,15 +11664,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 276.225 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11557,8 +11793,26 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 191.77 105.41 0)
+		(property "Mouser" "656-DX07S016JA3R1500"
+			(at 191.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "DX07S016JA3R1500"
+			(at 191.516 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JAE Electronics"
+			(at 191.516 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +11936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed37f273-203c-4e14-8c3f-6d3652cda11b")
-		(property "Reference" "C104"
+		(property "Reference" "C103"
 			(at 97.79 24.13 0)
 			(effects
 				(font
@@ -11736,7 +11990,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C104")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -11932,15 +12186,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 276.225 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11997,6 +12242,33 @@
 		)
 		(property "Description" ""
 			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "556-ATSAMD51G19AMU"
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 76.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "ATSAMD51G19A-MU"
+			(at 76.2 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12217,6 +12489,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "595-TPS78433QWDRBRQ1"
+			(at 189.23 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 189.23 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "TPS78433QWDRBRQ1"
+			(at 189.23 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37414fd1-2418-42cd-8317-73ea69afa929")
 		)
@@ -12394,7 +12693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc2d75df-44c5-4789-bce6-d7d9dbbb1c8b")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0139"
 			(at 186.69 195.58 0)
 			(effects
 				(font
@@ -12444,7 +12743,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0135")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -12459,7 +12758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff17249a-f1c8-4fa5-8ed0-9956567c1369")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0135"
 			(at 52.07 162.56 0)
 			(effects
 				(font
@@ -12509,7 +12808,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0137")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
