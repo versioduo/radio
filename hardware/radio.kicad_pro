@@ -137,8 +137,8 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.12,
+        "min_text_height": 0.75,
+        "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
@@ -617,7 +617,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/V2_A4_Empty.kicad_wks"
+    "page_layout_descr_file": "kicad-embed://V2_A4_Empty.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -717,7 +717,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/V2_A4.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://V2_A4.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
