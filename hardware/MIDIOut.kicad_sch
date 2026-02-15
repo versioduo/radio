@@ -647,171 +647,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Device:R_0603_220R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "220R"
-				(at 4.064 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "71-CRCW0603220RFKEAH"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "CRCW0603220RFKEAHP"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "330mW"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_220R_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_220R_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "V2_Diode:CG0603MLC-05LE"
 			(pin_numbers
 				(hide yes)
@@ -1139,6 +974,171 @@
 					(at 2.54 0 180)
 					(length 1.27)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Resistor:0603_220R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "220R"
+				(at 4.064 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW0603220RFKEAH"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW0603220RFKEAHP"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "330mW"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603_220R_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603_220R_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1570,7 +1570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f61fc49-4b3c-47aa-ae6d-bd2672583d5c")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR204"
 			(at 97.79 123.19 0)
 			(effects
 				(font
@@ -1622,7 +1622,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a2a7e0b0-ac2f-4b58-a957-fda1af6d6784"
-					(reference "#PWR0204")
+					(reference "#PWR204")
 					(unit 1)
 				)
 			)
@@ -1637,7 +1637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a26de94-e8f9-48f1-81a5-311110084ba6")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR206"
 			(at 115.57 123.19 0)
 			(effects
 				(font
@@ -1689,14 +1689,14 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a2a7e0b0-ac2f-4b58-a957-fda1af6d6784"
-					(reference "#PWR0206")
+					(reference "#PWR206")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_220R")
+		(lib_id "V2_Resistor:0603_220R")
 		(at 142.24 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1808,7 +1808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57f5924a-ab5a-4945-ac3a-62c8254fd81a")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR203"
 			(at 106.68 105.41 0)
 			(effects
 				(font
@@ -1858,14 +1858,14 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a2a7e0b0-ac2f-4b58-a957-fda1af6d6784"
-					(reference "#PWR0203")
+					(reference "#PWR203")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_220R")
+		(lib_id "V2_Resistor:0603_220R")
 		(at 154.94 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1977,7 +1977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c4dd1f6-2dbc-46b1-96ac-19be2abeba71")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR202"
 			(at 180.34 88.9 0)
 			(effects
 				(font
@@ -2029,7 +2029,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a2a7e0b0-ac2f-4b58-a957-fda1af6d6784"
-					(reference "#PWR0202")
+					(reference "#PWR202")
 					(unit 1)
 				)
 			)
@@ -2044,7 +2044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a875a484-5b0e-44d5-90ba-a73cc62106ef")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR205"
 			(at 106.68 123.19 0)
 			(effects
 				(font
@@ -2096,7 +2096,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a2a7e0b0-ac2f-4b58-a957-fda1af6d6784"
-					(reference "#PWR0205")
+					(reference "#PWR205")
 					(unit 1)
 				)
 			)
@@ -2311,7 +2311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d50cacbe-2f64-4455-9c8e-2a931f1c8aad")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR201"
 			(at 154.94 92.71 0)
 			(effects
 				(font
@@ -2361,7 +2361,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a2a7e0b0-ac2f-4b58-a957-fda1af6d6784"
-					(reference "#PWR0201")
+					(reference "#PWR201")
 					(unit 1)
 				)
 			)
