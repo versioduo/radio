@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 radio")
-		(date "2026-02-10")
+		(date "2026-03-14")
 		(rev "2026-02-10")
 		(company "Versio Duo")
 		(comment 1 "433 MHz MIDI bridge")
@@ -135,8 +135,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -315,8 +315,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -15.24 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -495,8 +495,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -14.478 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -504,7 +504,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "603-CC603JRNPO9BN180"
+			(property "Mouser" "810-CGA3E2C0G1H180J"
 				(at 0 -23.368 0)
 				(show_name)
 				(effects
@@ -514,7 +514,7 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "CC0603JRNPO9BN180"
+			(property "Product" "CGA3E2C0G1H180J080AA"
 				(at 0 -20.574 0)
 				(show_name)
 				(effects
@@ -524,7 +524,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "YAGEO"
+			(property "Manufacturer" "TDK"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -665,8 +665,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -818,7 +818,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "10u"
+			(property "Value" "22u"
 				(at 1.524 -2.032 0)
 				(effects
 					(font
@@ -845,8 +845,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1719,8 +1719,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal, small symbol"
-				(at 0 -7.62 0)
+			(property "Description" ""
+				(at 0 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2041,7 +2041,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "ESD"
-				(at -6.35 6.35 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2050,7 +2050,7 @@
 				)
 			)
 			(property "Value" "RCLAMP0582N"
-				(at -6.35 3.81 0)
+				(at -6.35 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2059,7 +2059,7 @@
 				)
 			)
 			(property "Footprint" "V2_ESD_Suppressor:SLP1210N6"
-				(at 0 -17.78 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2086,7 +2086,7 @@
 				)
 			)
 			(property "Mouser" "947-RCLAMP0582N.TCT"
-				(at 0 -25.4 0)
+				(at 0 -21.59 0)
 				(show_name)
 				(effects
 					(font
@@ -2096,7 +2096,7 @@
 				)
 			)
 			(property "Product" "RCLAMP0582N.TCT"
-				(at 0 -22.86 0)
+				(at 0 -19.05 0)
 				(show_name)
 				(effects
 					(font
@@ -2106,7 +2106,7 @@
 				)
 			)
 			(property "Manufacturer" "Semtech"
-				(at 0 -20.32 0)
+				(at 0 -16.51 0)
 				(show_name)
 				(effects
 					(font
@@ -2117,8 +2117,8 @@
 			)
 			(symbol "RCLAMP0582N_0_1"
 				(rectangle
-					(start -6.35 2.54)
-					(end 6.35 -5.08)
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -2130,27 +2130,9 @@
 			)
 			(symbol "RCLAMP0582N_1_0"
 				(pin bidirectional line
-					(at -8.89 0 0)
+					(at -8.89 5.08 0)
 					(length 2.54)
-					(name "I/O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "I/O1"
+					(name "D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2165,11 +2147,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 2.54 -10.16 0)
+				(pin passive line
+					(at -8.89 2.54 0)
 					(length 2.54)
-					(hide yes)
-					(name ""
+					(name "D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2184,8 +2165,26 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at 8.89 0 180)
+					(at 8.89 5.08 180)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -2203,7 +2202,7 @@
 					)
 				)
 				(pin power_in line
-					(at 8.89 -2.54 180)
+					(at 8.89 -5.08 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2222,11 +2221,10 @@
 				)
 			)
 			(symbol "RCLAMP0582N_1_1"
-				(pin no_connect line
-					(at 2.54 -7.62 0)
+				(pin passive line
+					(at -8.89 -5.08 0)
 					(length 2.54)
-					(hide yes)
-					(name ""
+					(name "D2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2289,8 +2287,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 -5.08 0)
+			(property "Description" ""
+				(at 0 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4883,8 +4881,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5048,8 +5046,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5213,8 +5211,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5464,8 +5462,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 -7.62 0)
+			(property "Description" "Push button"
+				(at 0 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5624,6 +5622,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -5749,6 +5748,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -6563,6 +6563,14 @@
 		(uuid "4f4e9161-6c85-47a3-bdf7-5b8b8731fcd2")
 	)
 	(no_connect
+		(at 232.41 120.65)
+		(uuid "6e0d8c0e-6855-4554-9ba1-38910b412478")
+	)
+	(no_connect
+		(at 232.41 128.27)
+		(uuid "71832600-c55e-4a37-a774-3bd9fa60ebc0")
+	)
+	(no_connect
 		(at 71.12 34.29)
 		(uuid "90102a86-fbc0-4e91-9a66-acfc31d16ac1")
 	)
@@ -6592,7 +6600,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 123.19) (xy 232.41 123.19)
+			(xy 226.06 125.73) (xy 232.41 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6742,6 +6750,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 118.11) (xy 232.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c88ba0c-3f96-44db-a338-83e687846852")
+	)
+	(wire
+		(pts
 			(xy 95.25 27.94) (xy 105.41 27.94)
 		)
 		(stroke
@@ -6859,16 +6877,6 @@
 			(type default)
 		)
 		(uuid "6d1fa367-a457-44d1-8a74-02772df44528")
-	)
-	(wire
-		(pts
-			(xy 226.06 125.73) (xy 232.41 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e20bf36-1263-4b79-b671-ce0f15dba9cb")
 	)
 	(wire
 		(pts
@@ -7680,6 +7688,16 @@
 		)
 		(uuid "cc2d8d1e-2b1a-401d-9738-3f2fbb0be7ef")
 	)
+	(label "USB+"
+		(at 226.06 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb4ff47e-3950-4d6b-a45c-361438f73b43")
+	)
 	(label "SWCLK"
 		(at 39.37 110.49 0)
 		(effects
@@ -7710,16 +7728,6 @@
 		)
 		(uuid "f253b3b8-7819-45c0-a67a-94d5f090d894")
 	)
-	(label "USB+"
-		(at 226.06 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5ede5f7-0c85-4b40-8dd9-f10f7a2fb1c8")
-	)
 	(label "SWDIO"
 		(at 148.59 92.71 180)
 		(effects
@@ -7731,7 +7739,7 @@
 		(uuid "f7c4cefe-0658-464b-a5a0-251b7070ec3b")
 	)
 	(label "USB-"
-		(at 226.06 123.19 0)
+		(at 226.06 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7785,7 +7793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 115.57 38.1 0)
 			(effects
 				(font
@@ -7921,7 +7929,7 @@
 		(dnp no)
 		(uuid "04efcacc-5cf4-4605-81ff-2960516efa9d")
 		(property "Reference" "ESD101"
-			(at 234.95 115.57 0)
+			(at 234.696 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,7 +7938,7 @@
 			)
 		)
 		(property "Value" "RCLAMP0582N"
-			(at 234.95 118.11 0)
+			(at 234.696 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +8265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Push button"
 			(at 252.73 27.94 0)
 			(effects
 				(font
@@ -8376,7 +8384,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+5V")
-		(at 250.19 123.19 270)
+		(at 250.19 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8384,7 +8392,7 @@
 		(dnp no)
 		(uuid "1b4db125-f7d9-4f6b-bb80-8b1c6fdcb409")
 		(property "Reference" "#PWR129"
-			(at 246.38 123.19 0)
+			(at 246.38 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8393,7 +8401,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 254 123.19 90)
+			(at 254 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 123.19 0)
+			(at 250.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +8419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 123.19 0)
+			(at 250.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8420,7 +8428,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 123.19 0)
+			(at 250.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,7 +8492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" ""
 			(at 125.73 59.69 0)
 			(effects
 				(font
@@ -8891,7 +8899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 201.93 52.07 0)
 			(effects
 				(font
@@ -9125,7 +9133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 232.41 97.79 0)
 			(effects
 				(font
@@ -10234,7 +10242,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 74.93 171.45 0)
 			(effects
 				(font
@@ -10261,7 +10269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 72.39 182.88 0)
 			(effects
 				(font
@@ -10952,7 +10960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 175.26 52.07 0)
 			(effects
 				(font
@@ -11055,7 +11063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal, small symbol"
+		(property "Description" ""
 			(at 29.21 44.45 0)
 			(effects
 				(font
@@ -11152,7 +11160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 31.75 62.738 0)
 			(effects
 				(font
@@ -11161,7 +11169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-CC603JRNPO9BN180"
+		(property "Mouser" "810-CGA3E2C0G1H180J"
 			(at 31.75 71.628 0)
 			(effects
 				(font
@@ -11170,7 +11178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CC0603JRNPO9BN180"
+		(property "Product" "CGA3E2C0G1H180J080AA"
 			(at 31.75 68.834 0)
 			(effects
 				(font
@@ -11179,7 +11187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TDK"
 			(at 31.75 66.04 0)
 			(effects
 				(font
@@ -11248,7 +11256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 64.77 40.64 0)
 			(effects
 				(font
@@ -11682,7 +11690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 26.67 62.738 0)
 			(effects
 				(font
@@ -11691,7 +11699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-CC603JRNPO9BN180"
+		(property "Mouser" "810-CGA3E2C0G1H180J"
 			(at 26.67 71.628 0)
 			(effects
 				(font
@@ -11700,7 +11708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CC0603JRNPO9BN180"
+		(property "Product" "CGA3E2C0G1H180J080AA"
 			(at 26.67 68.834 0)
 			(effects
 				(font
@@ -11709,7 +11717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TDK"
 			(at 26.67 66.04 0)
 			(effects
 				(font
@@ -11974,7 +11982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 148.59 59.69 0)
 			(effects
 				(font
@@ -12141,7 +12149,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 250.19 125.73 90)
+		(at 250.19 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12149,7 +12157,7 @@
 		(dnp no)
 		(uuid "b8d72967-847b-4ae0-adf9-630b91aaf6ed")
 		(property "Reference" "#PWR130"
-			(at 256.54 125.73 0)
+			(at 256.54 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12158,7 +12166,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 125.73 90)
+			(at 254 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12168,7 +12176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 125.73 0)
+			(at 250.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12177,7 +12185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 125.73 0)
+			(at 250.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12186,7 +12194,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 125.73 0)
+			(at 250.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12381,7 +12389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 105.41 38.1 0)
 			(effects
 				(font
@@ -12618,7 +12626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 85.09 38.1 0)
 			(effects
 				(font
@@ -12976,7 +12984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Push button"
 			(at 128.27 74.93 0)
 			(effects
 				(font
@@ -13260,7 +13268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 95.25 38.1 0)
 			(effects
 				(font
@@ -13429,7 +13437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 232.41 95.25 0)
 			(effects
 				(font
@@ -13953,7 +13961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 69.85 123.19 0)
 			(effects
 				(font
