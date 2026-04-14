@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 radio")
-		(date "2026-03-30")
-		(rev "2026-03-30")
+		(date "2026-04-14")
+		(rev "2026-04-14")
 		(company "Versio Duo")
 		(comment 1 "433 MHz MIDI bridge")
 	)
@@ -114,7 +114,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -125,7 +125,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -136,7 +136,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -170,6 +170,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -314,7 +325,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -325,7 +336,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -336,7 +347,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -370,6 +381,17 @@
 			)
 			(property "Mouser" "810-C1608X6S1A106M"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -514,7 +536,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -525,7 +547,7 @@
 				)
 			)
 			(property "Value" "18p"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -536,7 +558,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -570,6 +592,17 @@
 			)
 			(property "Mouser" "810-CGA3E2C0G1H180J"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -714,7 +747,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -725,7 +758,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -736,7 +769,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0805"
-				(at 0 -17.018 0)
+				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -769,7 +802,18 @@
 				)
 			)
 			(property "Mouser" "810-C2012X5R1E106K"
-				(at 0 -22.86 0)
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -780,7 +824,7 @@
 				)
 			)
 			(property "Rating" "25V"
-				(at 0 -20.32 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -914,7 +958,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -925,7 +969,7 @@
 				)
 			)
 			(property "Value" "22u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -936,7 +980,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_1210"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -969,7 +1013,18 @@
 				)
 			)
 			(property "Mouser" "810-CGA6P3X7R1E226M5"
-				(at 0 -22.86 0)
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -980,7 +1035,7 @@
 				)
 			)
 			(property "Rating" "25V"
-				(at 0 -20.32 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1505,8 +1560,30 @@
 					)
 				)
 			)
+			(property "Id" "USB:${SYMBOL_NAME}"
+				(at 0 -38.1 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Product" "DX07S016JA3R1500"
 				(at -0.254 -40.64 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "USB2.0"
+				(at 0 -40.64 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1837,27 +1914,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Y"
-				(at 0 2.54 0)
+				(at -2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "32k768"
-				(at 0 -3.81 0)
+				(at -2.54 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
-				(at -0.254 -12.192 0)
+				(at -0.254 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1890,7 +1969,7 @@
 				)
 			)
 			(property "Mouser" "815-ABS0716632.768KT"
-				(at 0 -15.24 0)
+				(at 0 -21.59 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1901,7 +1980,7 @@
 				)
 			)
 			(property "Product" "ABS07-166-32.768KHZ-T"
-				(at 0 -12.7 0)
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1912,7 +1991,29 @@
 				)
 			)
 			(property "Manufacturer" "ABRACON"
-				(at 0 -10.16 0)
+				(at 0 -16.51 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Crystal:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "10ppm"
+				(at 0 -24.13 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2034,23 +2135,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TVS"
-				(at -1.27 3.81 0)
+				(at -3.81 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "CG0603MLC-05LE"
-				(at 0 -3.81 0)
+				(at -3.81 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Diode_SMD:D_0603"
@@ -2087,7 +2190,18 @@
 				)
 			)
 			(property "Mouser" "652-CG0603MLC-05LE"
-				(at 0 -17.78 0)
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -11.43 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2098,7 +2212,7 @@
 				)
 			)
 			(property "Product" "CG0603MLC-05LE"
-				(at 0 -12.954 0)
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2109,7 +2223,7 @@
 				)
 			)
 			(property "Manufacturer" "Bourns"
-				(at 0 -10.16 0)
+				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2120,7 +2234,7 @@
 				)
 			)
 			(property "Rating" "5V"
-				(at 0 -15.24 0)
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2249,7 +2363,7 @@
 				)
 			)
 			(property "Footprint" "V2_ESD_Suppressor:SLP1210N6"
-				(at 0 -13.97 0)
+				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2282,7 +2396,7 @@
 				)
 			)
 			(property "Mouser" "947-RCLAMP0582N.TCT"
-				(at 0 -21.59 0)
+				(at 0 -26.67 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2293,7 +2407,7 @@
 				)
 			)
 			(property "Product" "RCLAMP0582N.TCT"
-				(at 0 -19.05 0)
+				(at 0 -24.13 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2304,7 +2418,29 @@
 				)
 			)
 			(property "Manufacturer" "Semtech"
+				(at 0 -21.59 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "ESD:${SYMBOL_NAME}"
 				(at 0 -16.51 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "20kV"
+				(at 0 -29.21 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2455,27 +2591,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 5.588 0)
+				(at -2.54 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "Orange"
-				(at 0 3.556 0)
+				(at -2.54 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_LED:LED_0603"
-				(at 0 -9.906 0)
+				(at 0 -14.986 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2508,7 +2646,7 @@
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
-				(at 0 -15.24 0)
+				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2519,7 +2657,7 @@
 				)
 			)
 			(property "Mouser" "755-SML-D12D1WT86"
-				(at 0 -7.62 0)
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2530,7 +2668,7 @@
 				)
 			)
 			(property "Product" "SML-D12D1WT86"
-				(at 0 -12.7 0)
+				(at 0 -20.32 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2541,7 +2679,29 @@
 				)
 			)
 			(property "Manufacturer" "ROHM Semiconductor "
-				(at 0 -10.16 0)
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "LED:${SYMBOL_NAME}"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "605nm"
+				(at 0 -25.4 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2685,27 +2845,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D3"
-				(at 0 10.414 0)
+				(at -5.08 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "WS2812"
-				(at 0 7.874 0)
+				(at -5.08 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_LED:WS2812-2020"
-				(at 0 -9.906 0)
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2728,7 +2890,7 @@
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
-				(at 0 -6.858 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2739,7 +2901,7 @@
 				)
 			)
 			(property "Manufacturer" "Worldsemi"
-				(at 0 -15.494 0)
+				(at 0 -16.51 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2750,7 +2912,7 @@
 				)
 			)
 			(property "Product" "WS2812B-2020"
-				(at 0 -12.954 0)
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2761,7 +2923,29 @@
 				)
 			)
 			(property "LCSC" "C965555"
-				(at 0 -18.288 0)
+				(at 0 -21.59 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "LED:${SYMBOL_NAME}"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "15mA"
+				(at 0 -24.13 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2961,7 +3145,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 8.8392 -47.2948 0)
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2971,7 +3155,7 @@
 				)
 			)
 			(property "Value" "ATSAMD51G"
-				(at 13.8684 -51.8668 0)
+				(at 0 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2981,7 +3165,7 @@
 				)
 			)
 			(property "Footprint" "V2_Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.45x5.45mm_ThermalVias"
-				(at 0 -63.5 0)
+				(at 0 -68.58 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3014,7 +3198,7 @@
 				)
 			)
 			(property "Mouser" "556-ATSAMD51G19AMU"
-				(at 0 -71.12 0)
+				(at 0 -76.2 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3025,7 +3209,7 @@
 				)
 			)
 			(property "Manufacturer" "Microchip Technology"
-				(at 0 -66.04 0)
+				(at 0 -71.12 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3036,7 +3220,29 @@
 				)
 			)
 			(property "Product" "ATSAMD51G19A-MU"
-				(at 0 -68.58 0)
+				(at 0 -73.66 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "MCU:${SYMBOL_NAME}"
+				(at 0 -66.04 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "Cortex-M4F"
+				(at 0 -78.74 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4446,8 +4652,8 @@
 				)
 			)
 			(property "Footprint" "V2_RF_Module:E62"
-				(at -0.254 -12.192 0)
-				(show_name no)
+				(at -0.254 -19.05 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -4468,8 +4674,52 @@
 				)
 			)
 			(property "Description" "433 MHz Wireless Module"
-				(at 0 -14.732 0)
-				(show_name no)
+				(at 0 -21.59 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "433Mhz"
+				(at 0 -29.21 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Radio:${SYMBOL_NAME}"
+				(at -1.27 -16.51 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Ebyte Electronic Technology"
+				(at 0 -24.13 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Product" "E62-433T20S"
+				(at 0 -26.67 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -4999,6 +5249,28 @@
 					)
 				)
 			)
+			(property "Id" "LDO:${SYMBOL_NAME}"
+				(at 0 -31.75 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "300mA"
+				(at 0 -49.53 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "TPS78433QWDRBRQ1_0_1"
 				(rectangle
 					(start -5.08 -5.08)
@@ -5197,27 +5469,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "100k"
-				(at 3.81 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "100k"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5251,6 +5525,17 @@
 			)
 			(property "Mouser" "71-CRCW0603100KFKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5382,27 +5667,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "330R"
-				(at 4.064 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "330R"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5436,6 +5723,17 @@
 			)
 			(property "Mouser" "71-CRCW0603330RFKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5567,27 +5865,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "5k1"
-				(at 3.302 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "5k1"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5621,6 +5921,17 @@
 			)
 			(property "Mouser" "71-CRCW06035K10FKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5771,7 +6082,7 @@
 				)
 			)
 			(property "Footprint" "V2_Spacer_Wurth:9774030243"
-				(at 0 -7.62 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5795,6 +6106,61 @@
 			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Spacer:${SYMBOL_NAME}"
+				(at 0 -8.89 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "3mm"
+				(at 0 -21.59 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 0 -13.97 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Product" "9774030243R"
+				(at 0 -16.51 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "710-9774030243R"
+				(at 0 -19.05 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -5892,8 +6258,8 @@
 				)
 			)
 			(property "Description" "Push button"
-				(at 0 -7.874 0)
-				(show_name no)
+				(at 0 -8.89 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -5904,6 +6270,17 @@
 			)
 			(property "Mouser" "688-SKSGACE010"
 				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Button:${SYMBOL_NAME}"
+				(at 0 -6.35 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6058,7 +6435,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -12.192 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7527,7 +7904,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 163.83) (xy 147.32 163.83)
+			(xy 135.89 160.02) (xy 147.32 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8086,7 +8463,7 @@
 		(uuid "4ebc6921-be1e-4bc5-853a-e9d6bfd3a4da")
 	)
 	(label "MIDI-In"
-		(at 147.32 163.83 180)
+		(at 147.32 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8095,7 +8472,7 @@
 		)
 		(uuid "5eb137ef-6daa-44cc-bd52-58b65bc970f1")
 	)
-	(label "VDDCORE"
+	(label "+VCORE"
 		(at 64.77 22.86 0)
 		(effects
 			(font
@@ -8276,7 +8653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "043872f7-f031-4401-97f4-30673956f95a")
-		(property "Reference" "C105"
+		(property "Reference" "C108"
 			(at 118.11 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8375,6 +8752,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 115.57 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40994f9c-19ed-482d-9248-93dc90690555")
 		)
@@ -8384,7 +8772,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C105")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -8401,7 +8789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0471926a-3950-43fa-a586-9054138c6e5f")
-		(property "Reference" "#PWR114"
+		(property "Reference" "#PWR137"
 			(at 274.32 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8462,7 +8850,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR114")
+					(reference "#PWR137")
 					(unit 1)
 				)
 			)
@@ -8567,6 +8955,28 @@
 				)
 			)
 		)
+		(property "Id" "ESD:${SYMBOL_NAME}"
+			(at 241.3 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "20kV"
+			(at 241.3 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91274f81-199a-4820-ae10-5e4a5b281d04")
 		)
@@ -8605,7 +9015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04fca3bc-aa8f-4fd8-8958-2cffef6f41c8")
-		(property "Reference" "#PWR137"
+		(property "Reference" "#PWR109"
 			(at 72.39 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8666,7 +9076,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR137")
+					(reference "#PWR109")
 					(unit 1)
 				)
 			)
@@ -8683,7 +9093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "056079d2-3ad3-4d82-b61e-ffbc0d6f15e4")
-		(property "Reference" "#PWR106"
+		(property "Reference" "#PWR123"
 			(at 201.93 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8743,7 +9153,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR106")
+					(reference "#PWR123")
 					(unit 1)
 				)
 			)
@@ -8760,7 +9170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0602ed14-d2c2-4e47-84cb-eec621139215")
-		(property "Reference" "INFO101"
+		(property "Reference" "INFO102"
 			(at 208.28 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8819,7 +9229,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "INFO101")
+					(reference "INFO102")
 					(unit 1)
 				)
 			)
@@ -8836,7 +9246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0676cd79-b280-49f0-bb2b-642706e7858b")
-		(property "Reference" "SW101"
+		(property "Reference" "SW102"
 			(at 251.46 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8922,6 +9332,28 @@
 				)
 			)
 		)
+		(property "Id" "Button:${SYMBOL_NAME}"
+			(at 252.73 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1.6N"
+			(at 252.73 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6873bfd1-5fab-4224-ae2a-5706d644f65d")
 		)
@@ -8931,7 +9363,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "SW101")
+					(reference "SW102")
 					(unit 1)
 				)
 			)
@@ -8948,7 +9380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1090cb48-dc6b-438f-a60b-1c2a31ca2d6e")
-		(property "Reference" "#PWR132"
+		(property "Reference" "#PWR110"
 			(at 73.66 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9009,7 +9441,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR132")
+					(reference "#PWR110")
 					(unit 1)
 				)
 			)
@@ -9026,7 +9458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b4db125-f7d9-4f6b-bb80-8b1c6fdcb409")
-		(property "Reference" "#PWR129"
+		(property "Reference" "#PWR132"
 			(at 246.38 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9087,7 +9519,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR129")
+					(reference "#PWR132")
 					(unit 1)
 				)
 			)
@@ -9105,7 +9537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ded23bb-9e01-4b5c-b1b4-6483eb39a60c")
-		(property "Reference" "D103"
+		(property "Reference" "D101"
 			(at 125.73 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9202,6 +9634,28 @@
 				)
 			)
 		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 125.73 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "605nm"
+			(at 125.73 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "04d62725-9abb-40ec-b476-f92cf9ca5fab")
 		)
@@ -9211,7 +9665,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "D103")
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -9302,7 +9756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2099139d-7804-4997-9aee-952305f25158")
-		(property "Reference" "#PWR102"
+		(property "Reference" "#PWR107"
 			(at 64.77 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9363,7 +9817,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR102")
+					(reference "#PWR107")
 					(unit 1)
 				)
 			)
@@ -9380,7 +9834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20d18c71-0c4f-4fe9-adf5-8312228ea199")
-		(property "Reference" "D101"
+		(property "Reference" "D102"
 			(at 247.65 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9468,6 +9922,28 @@
 				)
 			)
 		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 248.92 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 248.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d103674b-7ace-4f36-8d35-8d6b17321d70")
 		)
@@ -9483,7 +9959,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "D101")
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -9555,6 +10031,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 212.09 163.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -9575,7 +10062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32f9cf95-5154-44fe-a4a0-3bd7d0128ffb")
-		(property "Reference" "C107"
+		(property "Reference" "C110"
 			(at 204.47 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9674,6 +10161,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 201.93 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba4cc82d-3cca-4352-a8fc-32d199ee67cd")
 		)
@@ -9683,7 +10181,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C107")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -9700,7 +10198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "375306fb-e86f-46d7-9105-e1b818c84990")
-		(property "Reference" "#PWR101"
+		(property "Reference" "#PWR111"
 			(at 78.74 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -9760,7 +10258,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR101")
+					(reference "#PWR111")
 					(unit 1)
 				)
 			)
@@ -9777,7 +10275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3964a055-c6a7-4451-8a14-9c03d62eb8ea")
-		(property "Reference" "#PWR109"
+		(property "Reference" "#PWR136"
 			(at 274.32 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9837,7 +10335,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR109")
+					(reference "#PWR136")
 					(unit 1)
 				)
 			)
@@ -9952,6 +10450,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 233.68 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c27c2ede-a56c-4057-bfe0-4d4f4d62e0b4")
 		)
@@ -10032,6 +10541,61 @@
 				)
 			)
 		)
+		(property "Id" "Spacer:${SYMBOL_NAME}"
+			(at 191.77 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "3mm"
+			(at 191.77 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 191.77 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" "9774030243R"
+			(at 191.77 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "710-9774030243R"
+			(at 191.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cbd101c3-f5d2-4d3e-9aa9-47221b333a38")
 		)
@@ -10055,7 +10619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d931ac1-f6a4-41af-9bb4-201685b566d8")
-		(property "Reference" "#PWR128"
+		(property "Reference" "#PWR103"
 			(at 58.42 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10115,7 +10679,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR128")
+					(reference "#PWR103")
 					(unit 1)
 				)
 			)
@@ -10132,7 +10696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45f46f0c-f6c5-4e86-aeb8-fe3540e30cc1")
-		(property "Reference" "#PWR116"
+		(property "Reference" "#PWR128"
 			(at 226.06 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10192,7 +10756,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR116")
+					(reference "#PWR128")
 					(unit 1)
 				)
 			)
@@ -10375,7 +10939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50e843f1-1ba0-4cef-a032-494d2940de7c")
-		(property "Reference" "#PWR112"
+		(property "Reference" "#PWR101"
 			(at 26.67 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10436,7 +11000,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR112")
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -10453,7 +11017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c1432c2-d084-4c9f-81c4-c015ec63a0bc")
-		(property "Reference" "#PWR126"
+		(property "Reference" "#PWR114"
 			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10515,7 +11079,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR126")
+					(reference "#PWR114")
 					(unit 1)
 				)
 			)
@@ -10532,7 +11096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f1c71be-b9b9-47cf-820f-4afd322e7da4")
-		(property "Reference" "D102"
+		(property "Reference" "D103"
 			(at 264.16 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10620,6 +11184,28 @@
 				)
 			)
 		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 266.7 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 266.7 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "efe6d787-a195-4ce8-8198-2df0e36f188a")
 		)
@@ -10635,7 +11221,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "D102")
+					(reference "D103")
 					(unit 1)
 				)
 			)
@@ -10652,7 +11238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "613be8d5-f2d4-46f8-9ded-4d74656142ba")
-		(property "Reference" "#PWR127"
+		(property "Reference" "#PWR134"
 			(at 273.05 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10712,7 +11298,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR127")
+					(reference "#PWR134")
 					(unit 1)
 				)
 			)
@@ -10729,7 +11315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "616a3869-dcdc-4411-a46f-15ffd72fb8d5")
-		(property "Reference" "#PWR134"
+		(property "Reference" "#PWR122"
 			(at 191.77 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10790,7 +11376,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR134")
+					(reference "#PWR122")
 					(unit 1)
 				)
 			)
@@ -10807,7 +11393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6481033e-4277-488b-8ee2-f08211f463c0")
-		(property "Reference" "#PWR105"
+		(property "Reference" "#PWR117"
 			(at 175.26 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10867,7 +11453,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR105")
+					(reference "#PWR117")
 					(unit 1)
 				)
 			)
@@ -10884,7 +11470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69b3843b-e8b9-4f3c-a182-6bd9b57b7de7")
-		(property "Reference" "#PWR111"
+		(property "Reference" "#PWR106"
 			(at 63.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10945,7 +11531,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR111")
+					(reference "#PWR106")
 					(unit 1)
 				)
 			)
@@ -11016,6 +11602,61 @@
 				)
 			)
 		)
+		(property "Id" "Spacer:${SYMBOL_NAME}"
+			(at 191.77 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "3mm"
+			(at 191.77 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 191.77 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" "9774030243R"
+			(at 191.77 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "710-9774030243R"
+			(at 191.77 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ac782398-6d4a-46b2-80ef-d9c3be318c73")
 		)
@@ -11039,7 +11680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d6738db-5b07-4846-8452-3aec4fabcb36")
-		(property "Reference" "#PWR103"
+		(property "Reference" "#PWR112"
 			(at 85.09 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -11100,7 +11741,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR103")
+					(reference "#PWR112")
 					(unit 1)
 				)
 			)
@@ -11117,7 +11758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f59e71b-9321-43c5-9ee4-2f2fd5ce7e8f")
-		(property "Reference" "#PWR113"
+		(property "Reference" "#PWR102"
 			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11178,7 +11819,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR113")
+					(reference "#PWR102")
 					(unit 1)
 				)
 			)
@@ -11195,7 +11836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77be58e3-6c00-45da-9843-6a2883e3b059")
-		(property "Reference" "C111"
+		(property "Reference" "C104"
 			(at 74.93 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11294,6 +11935,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 72.39 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a684a108-e402-4a8f-95fa-8024f9bf1621")
 		)
@@ -11303,7 +11955,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C111")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -11320,7 +11972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77df6a97-6fb3-4f04-ae90-4acc6d3926a3")
-		(property "Reference" "#PWR104"
+		(property "Reference" "#PWR131"
 			(at 241.3 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11382,7 +12034,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR104")
+					(reference "#PWR131")
 					(unit 1)
 				)
 			)
@@ -11473,7 +12125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a25c032-eda5-4c7f-9d94-7b831bbc792f")
-		(property "Reference" "#PWR120"
+		(property "Reference" "#PWR125"
 			(at 200.66 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11533,7 +12185,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR120")
+					(reference "#PWR125")
 					(unit 1)
 				)
 			)
@@ -11547,11 +12199,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d07f0fa-f020-4f44-99de-5888b25483c9")
-		(property "Reference" "#PWR118"
+		(property "Reference" "#PWR129"
 			(at 236.22 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11612,7 +12264,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR118")
+					(reference "#PWR129")
 					(unit 1)
 				)
 			)
@@ -11629,7 +12281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7eb06b9d-d894-478a-bc35-8590f2ab48d6")
-		(property "Reference" "INFO102"
+		(property "Reference" "INFO101"
 			(at 171.45 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11686,7 +12338,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "INFO102")
+					(reference "INFO101")
 					(unit 1)
 				)
 			)
@@ -11703,7 +12355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "819dcccb-fbf4-40dc-88e4-a3496c9ef425")
-		(property "Reference" "#PWR123"
+		(property "Reference" "#PWR113"
 			(at 119.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11764,7 +12416,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR123")
+					(reference "#PWR113")
 					(unit 1)
 				)
 			)
@@ -11781,7 +12433,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8209c635-8f17-4b59-b414-bbb1e6329883")
-		(property "Reference" "#PWR108"
+		(property "Reference" "#PWR124"
 			(at 201.93 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11842,7 +12494,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR108")
+					(reference "#PWR124")
 					(unit 1)
 				)
 			)
@@ -11913,6 +12565,61 @@
 				)
 			)
 		)
+		(property "Id" "Spacer:${SYMBOL_NAME}"
+			(at 191.77 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "3mm"
+			(at 191.77 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 191.77 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" "9774030243R"
+			(at 191.77 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "710-9774030243R"
+			(at 191.77 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c0f67c72-6565-4ada-b50e-12b7658aa200")
 		)
@@ -11936,7 +12643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84509923-3c37-4069-b827-0bb52fbbd40e")
-		(property "Reference" "#PWR138"
+		(property "Reference" "#PWR105"
 			(at 62.23 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -11997,7 +12704,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR138")
+					(reference "#PWR105")
 					(unit 1)
 				)
 			)
@@ -12014,7 +12721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86b706b9-6d90-4020-b4f0-e395502cc830")
-		(property "Reference" "C106"
+		(property "Reference" "C109"
 			(at 172.72 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12113,6 +12820,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 175.26 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c3ec50a0-04df-40be-aae7-9d7b417025de")
 		)
@@ -12122,7 +12840,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C106")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -12225,6 +12943,28 @@
 				)
 			)
 		)
+		(property "Id" "Crystal:${SYMBOL_NAME}"
+			(at 29.21 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "10ppm"
+			(at 29.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2c152de-214a-46e7-b4d0-e7b7121fb943")
 		)
@@ -12252,7 +12992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aa35fa2-54d2-4de6-84fb-e40adea5ce97")
-		(property "Reference" "C109"
+		(property "Reference" "C102"
 			(at 34.29 46.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12340,6 +13080,28 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 31.75 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 31.75 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dbad3011-3bb7-4b68-acdf-fdc265c6dd90")
 		)
@@ -12349,7 +13111,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C109")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -12366,7 +13128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b1cb416-f9ac-41d1-988c-0516ecf3ab43")
-		(property "Reference" "C101"
+		(property "Reference" "C103"
 			(at 67.31 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12465,6 +13227,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 64.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a0d2225-c269-4a51-84e4-3e513e7d8f7c")
 		)
@@ -12474,7 +13247,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C101")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -12491,7 +13264,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b4b7fe8-9d02-4ab8-94ff-af848fba920d")
-		(property "Reference" "#PWR131"
+		(property "Reference" "#PWR135"
 			(at 273.05 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -12552,7 +13325,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR131")
+					(reference "#PWR135")
 					(unit 1)
 				)
 			)
@@ -12570,7 +13343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90f9cec0-afe2-46f7-a3c5-ad2e3b2fb2f0")
-		(property "Reference" "#PWR124"
+		(property "Reference" "#PWR126"
 			(at 228.6 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12632,7 +13405,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR124")
+					(reference "#PWR126")
 					(unit 1)
 				)
 			)
@@ -12649,7 +13422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92ad24f7-46c7-43f4-bf6c-948ed68979f3")
-		(property "Reference" "#PWR107"
+		(property "Reference" "#PWR118"
 			(at 175.26 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12710,7 +13483,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR107")
+					(reference "#PWR118")
 					(unit 1)
 				)
 			)
@@ -12880,7 +13653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b95cb83-a45c-4669-9b91-f341db699f30")
-		(property "Reference" "C108"
+		(property "Reference" "C101"
 			(at 24.13 46.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12968,6 +13741,28 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 26.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 26.67 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eaa9c83e-7bc4-4f72-8f4b-d5d56fec85fa")
 		)
@@ -12977,7 +13772,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C108")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -12991,11 +13786,11 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6e02ade-126a-40d1-976c-41182b6097e9")
-		(property "Reference" "#PWR133"
+		(property "Reference" "#PWR119"
 			(at 184.15 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -13055,7 +13850,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR133")
+					(reference "#PWR119")
 					(unit 1)
 				)
 			)
@@ -13072,7 +13867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adb50803-13ff-48ce-b94f-a815ee97105b")
-		(property "Reference" "#PWR110"
+		(property "Reference" "#PWR121"
 			(at 189.23 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13133,7 +13928,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR110")
+					(reference "#PWR121")
 					(unit 1)
 				)
 			)
@@ -13150,7 +13945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af3092f3-ec71-4b35-b5f2-88a2045939cd")
-		(property "Reference" "#PWR115"
+		(property "Reference" "#PWR116"
 			(at 144.78 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13211,7 +14006,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR115")
+					(reference "#PWR116")
 					(unit 1)
 				)
 			)
@@ -13228,7 +14023,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3b0c6e8-2d4f-44f3-863f-e6c1387584b1")
-		(property "Reference" "R101"
+		(property "Reference" "R102"
 			(at 135.89 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13325,6 +14120,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 149.86 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "033939a2-7fb5-4ef9-a4b8-e99e3748741d")
 		)
@@ -13334,7 +14140,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "R101")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -13450,6 +14256,17 @@
 				)
 			)
 		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 284.48 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ff1745d-c11f-4562-8da8-32201df3ed36")
 		)
@@ -13476,7 +14293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8d72967-847b-4ae0-adf9-630b91aaf6ed")
-		(property "Reference" "#PWR130"
+		(property "Reference" "#PWR133"
 			(at 256.54 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -13538,7 +14355,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR130")
+					(reference "#PWR133")
 					(unit 1)
 				)
 			)
@@ -13556,7 +14373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9f0e3be-0790-4bce-b975-3e3dc01314c0")
-		(property "Reference" "#PWR125"
+		(property "Reference" "#PWR127"
 			(at 228.6 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13618,7 +14435,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR125")
+					(reference "#PWR127")
 					(unit 1)
 				)
 			)
@@ -13709,7 +14526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c260461d-00b9-4eb9-b031-8db68de74a86")
-		(property "Reference" "C104"
+		(property "Reference" "C107"
 			(at 107.95 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13808,6 +14625,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 105.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4cf1b210-2b1a-44fa-ac9c-0947a1a1fb8f")
 		)
@@ -13817,7 +14645,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C104")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -13834,7 +14662,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2d051e4-56ab-47a4-9e3f-8e1c0c580205")
-		(property "Reference" "#PWR119"
+		(property "Reference" "#PWR130"
 			(at 236.22 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13896,7 +14724,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR119")
+					(reference "#PWR130")
 					(unit 1)
 				)
 			)
@@ -13967,6 +14795,61 @@
 				)
 			)
 		)
+		(property "Id" "Spacer:${SYMBOL_NAME}"
+			(at 191.77 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "3mm"
+			(at 191.77 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 191.77 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" "9774030243R"
+			(at 191.77 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "710-9774030243R"
+			(at 191.77 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f3e49940-c483-4679-801f-bc19b73756cb")
 		)
@@ -13990,7 +14873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf32a5fd-5f5f-475f-9178-9dee2092531c")
-		(property "Reference" "C102"
+		(property "Reference" "C105"
 			(at 92.71 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14089,6 +14972,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 85.09 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "957882ff-7c79-433b-b595-cba74e7b0f1d")
 		)
@@ -14098,7 +14992,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C102")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -14115,7 +15009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d44e6572-dd66-48a2-9f4a-e919439a8d1f")
-		(property "Reference" "#PWR136"
+		(property "Reference" "#PWR108"
 			(at 72.39 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14175,7 +15069,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR136")
+					(reference "#PWR108")
 					(unit 1)
 				)
 			)
@@ -14192,7 +15086,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6a3ec8d-f370-46d9-b33b-44246a779daf")
-		(property "Reference" "U103"
+		(property "Reference" "U101"
 			(at 42.926 155.448 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14236,6 +15130,50 @@
 		)
 		(property "Description" "433 MHz Wireless Module"
 			(at 46.99 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "433Mhz"
+			(at 46.99 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Radio:${SYMBOL_NAME}"
+			(at 45.72 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Ebyte Electronic Technology"
+			(at 46.99 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" "E62-433T20S"
+			(at 46.99 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14314,7 +15252,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "U103")
+					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -14406,7 +15344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db2e7cd7-d581-4e59-b8cc-804cecf82db8")
-		(property "Reference" "SW102"
+		(property "Reference" "SW101"
 			(at 128.27 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14492,6 +15430,28 @@
 				)
 			)
 		)
+		(property "Id" "Button:${SYMBOL_NAME}"
+			(at 128.27 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1.6N"
+			(at 128.27 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "accfb89e-4554-412c-b526-afa48735151e")
 		)
@@ -14501,7 +15461,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "SW102")
+					(reference "SW101")
 					(unit 1)
 				)
 			)
@@ -14605,6 +15565,28 @@
 				)
 			)
 		)
+		(property "Id" "USB:${SYMBOL_NAME}"
+			(at 191.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "USB2.0"
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A5"
 			(uuid "7f58d90e-c336-4a76-b7b5-08e96bd58c9d")
 		)
@@ -14658,7 +15640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8f17297-6a4c-46d8-b68d-89b74bb0c432")
-		(property "Reference" "#PWR117"
+		(property "Reference" "#PWR115"
 			(at 116.84 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -14719,7 +15701,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR117")
+					(reference "#PWR115")
 					(unit 1)
 				)
 			)
@@ -14736,7 +15718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed37f273-203c-4e14-8c3f-6d3652cda11b")
-		(property "Reference" "C103"
+		(property "Reference" "C106"
 			(at 97.79 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14835,6 +15817,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 95.25 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "456a6422-df18-4ff1-9de7-000df4adc192")
 		)
@@ -14844,7 +15837,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C103")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -15027,6 +16020,17 @@
 		)
 		(property "Rating" "100mW"
 			(at 240.03 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 233.68 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15226,6 +16230,28 @@
 				)
 			)
 		)
+		(property "Id" "MCU:${SYMBOL_NAME}"
+			(at 76.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "Cortex-M4F"
+			(at 76.2 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "be67758d-4b2d-4ca5-8db6-52b7edac2291")
 			(alternate "XIN32")
@@ -15398,7 +16424,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f58e4ac3-73a6-4b0d-9f21-10065f532fab")
-		(property "Reference" "U101"
+		(property "Reference" "U103"
 			(at 189.23 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15484,6 +16510,28 @@
 				)
 			)
 		)
+		(property "Id" "LDO:${SYMBOL_NAME}"
+			(at 189.23 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "300mA"
+			(at 189.23 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37414fd1-2418-42cd-8317-73ea69afa929")
 		)
@@ -15514,7 +16562,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "U101")
+					(reference "U103")
 					(unit 1)
 				)
 			)
@@ -15531,7 +16579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9c63b6f-58f5-463c-9aaf-9b2e31fb1861")
-		(property "Reference" "R105"
+		(property "Reference" "R101"
 			(at 57.15 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15628,6 +16676,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 71.12 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "882ecb35-114d-452b-8aca-e842a8eb4a00")
 		)
@@ -15637,7 +16696,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "R105")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -15731,7 +16790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc2d75df-44c5-4789-bce6-d7d9dbbb1c8b")
-		(property "Reference" "#PWR139"
+		(property "Reference" "#PWR120"
 			(at 186.69 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -15792,7 +16851,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR139")
+					(reference "#PWR120")
 					(unit 1)
 				)
 			)
@@ -15809,7 +16868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff17249a-f1c8-4fa5-8ed0-9956567c1369")
-		(property "Reference" "#PWR135"
+		(property "Reference" "#PWR104"
 			(at 52.07 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -15869,7 +16928,7 @@
 		(instances
 			(project "radio"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR135")
+					(reference "#PWR104")
 					(unit 1)
 				)
 			)
@@ -15953,7 +17012,7 @@
 	)
 	(sheet
 		(at 119.38 175.26)
-		(size 19.05 5.08)
+		(size 16.51 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16009,7 +17068,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 161.29)
+		(at 119.38 157.48)
 		(size 16.51 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16025,7 +17084,7 @@
 		)
 		(uuid "ae0f3fb3-3b08-46e7-ba0a-341c37aaf317")
 		(property "Sheetname" "MIDI In"
-			(at 119.38 160.5784 0)
+			(at 119.38 156.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16036,7 +17095,7 @@
 			)
 		)
 		(property "Sheetfile" "MIDIIn.kicad_sch"
-			(at 119.38 166.9546 0)
+			(at 119.38 163.1446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16048,7 +17107,7 @@
 			)
 		)
 		(pin "MIDI-Data" output
-			(at 135.89 163.83 0)
+			(at 135.89 160.02 0)
 			(uuid "022943ed-891d-4a4e-8276-0c11f1028210")
 			(effects
 				(font
@@ -16075,18 +17134,17 @@
 		(file
 			(name "V2_A4.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WBhBk0QALbYTiEQtRsmZc5q276ayLS71D6kxbkmoTeIJM7lAHtEAMAAxQFGAD8ARQCbvIHa
-				a/wrVHSazXnPhvzar1BNtH1kxRf5EwCAQPh5F+e0kJq0nmtfKDvj37Jf3xQUlFKqztoXWzE7iAAI
-				iJ6Q5m2d9RAC9jcPPWe/GXf/9ewpPR3+uPbv7bdzvr37wXlr2X8dBHFXu7Z3HUG7Kvrz9qKU7eB2
-				v/MM4n/Mhfg5G5sn7WsDTS2mA1WyssZDsy4YdpEGzfD8Ny+85JzH7H+961FjX/x0qtq0MdaqJ8dx
-				k1KAwF+soV3VFnEoqewX+XNfTaqqPatRlLsbgcKhzs5+29sEzSaWRPZ4txDEjpmZNCoSiiMhaUwy
-				y4Jg3oe5pmhPRSS7MtJAerbfnYNNgaEkuCg6oVzYhbEsF1vRgtxS55zTIVig4URjFFJTI1qYFNIB
-				YESmRusYYvaiF0uSUdhu1Q2lFiOgdmN7VvaH2oWyw9MQXRuZtQQQoIsxFn2ldtnpQiUNa0HvDQCK
-				f/XTisCgEJQEXe/if4EJsakkqj8BMmGAU+ZM/AG8LSEJMfgkOKfSKPhw4rD3ZHfmNZYNfDMigEPJ
-				EBoIDghtm1kJ8BAQ8xyGdkOuFQy33sishFt8DZNX4uNRXJZ5hBy746RJaNtgbfyB613d0dov6Cdg
-				iUQT9BXkf9EiYDuODpB6gKkC|
+			(data |KLUv/WD5BbUPADbXSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARQB3rDJr
+				Vfe8iEc347HKLOu3hM0n3acAgEAZ+mtWq1rqUSxebyypb/3fvvl2Ks1ai1318qyxua+IAgRM0MgT
+				vxCDqNazy01dUkv9SffBzyqWXV6zk7TDjC//75ZXzHffvHX4Y/Xf35uU+iW//OHdpP7XYKnf08G7
+				Ws+4sz/Se05W5tbSsFNFN3RTUXTjhdPWNR7ehuG4iIngvhBQHGxi+IlSiXCRzHYxEfbe576fb+gn
+				B78Z+mSX28Z5ZV5BEKwWAwQ+a06BCmH90rZJg9JtG4SrtqNsE+pn/kpSOzSUhmVScSgcO1gJcdSg
+				J6zLuq1W1TZJF+moiP3v9XDUP1+S1KFCs7SB4TTQalSg4UCjGDM0M3GaNAZgZObmWAewpQGB0gB3
+				GYWe0WuYLYxil2+HCVPCLoewmMo8a9CJow+hHPOLKHdUb0wU8lRpRE+qFdAXJgbU7nMwecZYivJQ
+				iTgLkNig5tH7xtAJA8QyZ+ZP4GUJKSTwm+RM51H7yWknvCe7YZZxrISdEQ48yLJBiQaevBZD1kY4
+				h0V7Dqlt/1rBcP0NQy83g9hYapcpANydipsbWw09qO7ggsG8qpSEBRoltBf/e9cTMh29AaQeYKo=|
 			)
-			(checksum "0A61268C685EAF945CA2EA8187370BD3")
+			(checksum "080A27BD1FADC1F81518BF82EA92C143")
 		)
 	)
 )
