@@ -3,7 +3,7 @@
 #include <V2LED.h>
 #include <V2MIDI.h>
 
-V2DEVICE_METADATA("com.versioduo.radio", 2, "versioduo:samd:radio");
+V2DEVICE_METADATA("com.versioduo.radio", 3, "versioduo:samd:radio");
 
 namespace {
   V2LED::WS2812        Led(2, PIN_LED_WS2812, &sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
@@ -218,12 +218,12 @@ namespace {
           if (!online())
             break;
 
-          if (!MIDIRadio.receive(&_midi))
+          if (!MIDIRadio.receive(_midi))
             break;
 
           device->led.flash(0.03, 0.3);
-          device->usb.midi.send(&_midi);
-          MIDISerial.send(&_midi);
+          device->usb.midi.send(_midi);
+          MIDISerial.send(_midi);
           break;
         }
 
@@ -268,7 +268,7 @@ namespace {
 
     auto send(V2MIDI::Packet& m) {
       device->led.flash(0.03, 0.3);
-      MIDIRadio.send(&m);
+      MIDIRadio.send(m);
     }
 
     auto debug() {
@@ -374,10 +374,10 @@ namespace {
   class {
   public:
     auto loop() {
-      if (Device.usb.midi.receive(&_midi))
+      if (Device.usb.midi.receive(_midi))
         Device.dispatch(&Device.usb.midi, &_midi);
 
-      if (MIDISerial.receive(&_midi))
+      if (MIDISerial.receive(_midi))
         Radio.send(_midi);
     }
 
