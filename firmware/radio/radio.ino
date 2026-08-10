@@ -3,10 +3,10 @@
 #include <V2LED.h>
 #include <V2MIDI.h>
 
-V2DEVICE_METADATA("com.versioduo.radio", 3, "versioduo:samd:radio");
+V2DEVICE_METADATA("com.versioduo.radio", 4, "versioduo:samd:radio");
 
 namespace {
-  V2LED::WS2812        Led(2, PIN_LED_WS2812, &sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
+  V2LED::WS2812<2>     LED(PIN_LED_WS2812, sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
   V2MIDI::SerialDevice MIDISerial(&SerialMIDI);
   V2MIDI::SerialDevice MIDIRadio(&SerialRadio);
   V2Device*            device{};
@@ -171,7 +171,7 @@ namespace {
     auto loop() {
       switch (_state) {
         case State::ModeConfig: {
-          Led.reset();
+          LED.reset();
           digitalWrite(PIN_RADIO_MODE, HIGH);
           delay(100);
           SerialRadio.end();
@@ -248,11 +248,11 @@ namespace {
         _link.online = online;
 
       if (_link.online) {
-        Led.setHSV(V2Colour::Orange, 1, 0.35);
+        LED.hsv({V2Colour::Orange, 1, 0.35});
         _link.resetUsec = 0;
 
       } else {
-        Led.setHSV(V2Colour::Cyan, 1, 0.25);
+        LED.hsv({V2Colour::Cyan, 1, 0.25});
 
         if (_link.resetUsec == 0)
           _link.resetUsec = V2Base::getUsec();
@@ -410,8 +410,8 @@ namespace {
 auto setup() -> void {
   Serial.begin(9600);
 
-  Led.begin();
-  Led.setMaxBrightness(0.5);
+  LED.begin();
+  LED.brightnessMax(0.5);
 
   MIDIRadio.begin();
   MIDISerial.begin();
@@ -426,7 +426,7 @@ auto setup() -> void {
 }
 
 auto loop() -> void {
-  Led.loop();
+  LED.loop();
   Radio.loop();
   MIDI.loop();
   V2Buttons::loop();
