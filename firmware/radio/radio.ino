@@ -3,12 +3,12 @@
 #include <V2LED.h>
 #include <V2MIDI.h>
 
-V2DEVICE_METADATA("com.versioduo.radio", 4, "versioduo:samd:radio");
+V2DEVICE_METADATA("com.versioduo.radio", 5, "versioduo:samd:radio");
 
 namespace {
   V2LED::WS2812<2>     LED(PIN_LED_WS2812, sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
-  V2MIDI::SerialDevice MIDISerial(&SerialMIDI);
-  V2MIDI::SerialDevice MIDIRadio(&SerialRadio);
+  V2MIDI::SerialDevice MIDISerial(&SerialMIDI, "serial");
+  V2MIDI::SerialDevice MIDIRadio(&SerialRadio, "radio");
   V2Device*            device{};
 
   // 433MHz RF Module EBYTE E62-433T20S
@@ -415,7 +415,7 @@ auto setup() -> void {
 
   MIDIRadio.begin();
   MIDISerial.begin();
-  Device.serial = &MIDISerial;
+  Device.ports.push_back(&MIDISerial);
 
   Radio.begin();
   Radio.reset();
