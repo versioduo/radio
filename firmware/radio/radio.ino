@@ -3,9 +3,8 @@
 #include <V2LED.h>
 #include <V2MIDI.h>
 
-V2DEVICE_METADATA("com.versioduo.radio", 5, "versioduo:samd:radio");
-
 namespace {
+  V2Device::Info       Info{V2DeviceInfo("com.versioduo.radio", 5, "versioduo:samd:radio")};
   V2LED::WS2812<2>     LED(PIN_LED_WS2812, sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
   V2MIDI::SerialDevice MIDISerial(&SerialMIDI, "serial");
   V2MIDI::SerialDevice MIDIRadio(&SerialRadio, "radio");
@@ -301,14 +300,11 @@ namespace {
       metadata.vendor      = "Versio Duo";
       metadata.product     = "V2 radio";
       metadata.home        = "https://versioduo.com/#beat";
-
-      usb.ports.standard = 0;
-
-      system.download  = "https://versioduo.com/download";
-      system.configure = "https://versioduo.com/configure";
-
-      configuration = {.size{sizeof(Radio.config)}, .data{&Radio.config}};
-      device        = this;
+      system.download      = "https://versioduo.com/download";
+      system.configure     = "https://versioduo.com/configure";
+      usb.ports.standard   = 0;
+      configuration        = {.size{sizeof(Radio.config)}, .data{&Radio.config}};
+      device               = this;
     }
 
   private:
